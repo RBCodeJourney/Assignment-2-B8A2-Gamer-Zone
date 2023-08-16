@@ -1,0 +1,37 @@
+/* tablet device */
+
+@media screen and (max-width: 960px) {
+
+    .nav-container,
+    .banner-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 25vh;
+    }
+}
+
+
+/* mobile device */
+@media (max-width: 576px) {
+
+    .nav-container,
+    .nav-items,
+    .banner-container {
+        flex-direction: column;
+        width: auto;
+        align-items: center;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        overflow: hidden;
+        padding-top: 10vh;
+
+    }
+
+    .banner-container img {
+        width: 50vh;
+    }
+}
