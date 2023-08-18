@@ -1,7 +1,8 @@
 /* tablet device */
 
 @media screen and (max-width: 960px) {
-.online-games,
+
+    .online-games,
     .nav-container,
     .banner-container,
     .gamer-section {
@@ -22,20 +23,16 @@
         justify-content: center;
         object-fit: contain;
     }
-    .online-game-section{
+
+    .online-game-section {
         padding: 0;
     }
-.game-main-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-    /* .online-game{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+
+    .game-main-content {
+        display: flex;
+        flex-direction: column;
         justify-content: center;
-        overflow-wrap: normal;
-    } */
+    }
 }
 
 
@@ -97,7 +94,7 @@
         line-break: normal;
         margin: auto;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
 
@@ -107,8 +104,19 @@
         justify-content: center;
         align-items: center;
         padding: 0;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .instant-play-section{
+        display: flex;
+        flex-direction: column;
+        /* width: fit-content; */
+        
+    }
+    .instant-play-img-1{
+        width:30vh;
+        height: 40vh;
+        padding-left: 14px;
+        padding-right: 14px;
     }
 
 }

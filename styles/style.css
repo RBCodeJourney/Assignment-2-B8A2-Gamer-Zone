@@ -247,3 +247,59 @@ nav {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
     border: 15px;
 }
+/* instant play section starts */
+
+.instant-play-section{
+
+    padding-left: 350px;
+    padding-right: 200px;
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 80px;
+  }
+  
+  .instant-play-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  
+  .instant-play-text h3{
+    color: #0B0223;
+    font-size: 42px;
+    font-weight: 700;
+  }
+  
+  .instant-play-text p{
+    color: #534C64;
+    font-size: 16px;
+    margin-top: 24px;
+  }
+  
+  .instant-play-text h3 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .instant-play-img{
+    width: 75%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 30px;
+  }
+  
+  .instant-play-img .instant-play-img-1{
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .instant-play-img .instant-play-img-1-1{
+    position: absolute;
+    bottom: -5rem;
+    left: -3rem;
+  }
