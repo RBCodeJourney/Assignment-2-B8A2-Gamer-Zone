@@ -1,7 +1,7 @@
 /* tablet device */
 
 @media screen and (max-width: 960px) {
-
+.online-games,
     .nav-container,
     .banner-container,
     .gamer-section {
@@ -32,8 +32,9 @@
 }
     /* .online-game{
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         justify-content: center;
+        overflow-wrap: normal;
     } */
 }
 

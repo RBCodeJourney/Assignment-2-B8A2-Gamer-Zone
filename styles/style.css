@@ -242,8 +242,8 @@ nav {
     gap: 16px;
 }
 
-.game-card img:hover{
+.game-card img:hover {
     border-radius: 16px;
-background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-border: 15px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    border: 15px;
 }
